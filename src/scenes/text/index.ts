@@ -4,7 +4,7 @@ import BackButton from "../../components/BackButton";
 import concatenate from "./concatenate";
 import { textArray, emojiArray, imageArray } from "./data";
 
-const TextScene = () => {
+const TextScene = (app: PIXI.Application) => {
   const container = new PIXI.Container();
 
   let intervalId: ReturnType<typeof setInterval> | undefined;

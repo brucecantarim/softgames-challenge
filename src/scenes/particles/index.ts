@@ -1,7 +1,7 @@
 import * as PIXI from "pixi.js";
 import BackButton from "../../components/BackButton";
 
-const FireScene = () => {
+const FireScene = (app: PIXI.Application) => {
   const container = new PIXI.Container();
   const sprites: PIXI.Sprite[] = [];
   const spritePool: PIXI.Sprite[] = [];

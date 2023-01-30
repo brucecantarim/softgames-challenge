@@ -30,7 +30,7 @@ app.stage.addChild(FPSCounter());
 events.on("changeScene", (newScene: string) => {
   app.stage.removeChild(currentScene);
   currentScene.destroy({ children: true });
-  currentScene = Scenes[newScene].start();
+  currentScene = Scenes[newScene].start(app);
   app.stage.addChild(currentScene);
 });
 

@@ -10,7 +10,7 @@ export interface SceneObject {
     label: string;
     color: number;
     backgroundColor: number;
-    start: () => PIXI.Container;
+    start: (app?: PIXI.Application) => PIXI.Container;
   };
 }
 
