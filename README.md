@@ -48,7 +48,7 @@ npm install
 
 ## Authors
 
-- **Bruce Cantarim** - [Github Profile](https://github.com/brucecantarim)
+- **Bruce Cantarim** - [Github Profile](https://github.com/brucecantarim) - [Linkedin Profile](https://linkedin.com/in/brucecantarim)
 
 ## Acknowledgments
 
