@@ -54,4 +54,4 @@ npm install
 
 - The Cards Demo still needs work. Due to my Card component being a container, the usual strategy to deal with zOrder doesn't work here. I also need to debug and fix the animation loop, it currently stops when reaching the end of the first shuffle.
 
-## Thank you for your consideration!
+Thank you for your consideration!
