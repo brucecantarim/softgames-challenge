@@ -57,6 +57,8 @@ Due to the time limitation, the following decisions were made to deliver the pro
 - The Cards Demo only makes use of PixiJS default package. It could be greatly improved using other plugins and libraries, such as @pixi/layers for dealing with the zIndex of the cards and animejs or gsap for the animations.
 - The project lacks test implementation, did all of my testing manually, but I did added the jest library and tried to make most of the functions prepared for testing (that's why I opted for coding in a functional programming paradigm instead of OOP).
 - There's no music or audio in this demo.
+- It works on mobile, but the UI experience was not optimized for it. I wish I had started the project with a good strategy to deal better with font and elements resizing according to the device.
+- Assets are not fully optmized in terms of size and delivery. I pushed it to the end of development, and ended up not being able to review them.
 - Particle textures and Images are by [Kenney](https://kenney.nl/assets/particle-pack)
 
 Thank you for your consideration!
