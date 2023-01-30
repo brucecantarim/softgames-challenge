@@ -52,6 +52,6 @@ npm install
 
 ## Acknowledgments
 
-- The Cards Demo still needs work. Due to my Card component being a container, the usual strategy to deal with zOrder doesn't work here. I also need to debug and fix the animation loop, it currently stops when reaching the end of the first shuffle.
+- The Cards Demo only makes use of PixiJS default package. It could be greatly improved using other plugins and libraries, such as @pixi/layers for dealing with the zIndex of the cards and animejs or gsap for the animations. Took this decision due to time constraints, since I had limited time to dedicate to the project.
 
 Thank you for your consideration!
