@@ -28,7 +28,7 @@ What things you need to install the software and how to install them. For exampl
 A step by step guide on how to set up the project on your local machine.
 
 1. Clone the repository
-   ` git clone https://github.com/brucecantarim/softgames.git`
+   ` git clone https://github.com/brucecantarim/softgames-challenge.git`
 
 2. Install the dependencies
 
