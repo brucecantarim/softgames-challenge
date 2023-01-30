@@ -1,5 +1,4 @@
 import * as PIXI from "pixi.js";
-import * as Layers from "@pixi/layers";
 
 import BackButton from "../../components/BackButton";
 import Card from "./card";
@@ -32,7 +31,7 @@ const cardsScene = (app: PIXI.Application) => {
   let cardIndex = 0;
   const deckLength = 144;
   let drawedCards: drawedCardsProps[] = [];
-  let timeSinceLastDraw = performance.now();
+  let timeSinceLastDraw = performance.now(); // Used performance.now() instead of ticker for better accuracy
 
   // Function to populate a deck
   const populateDeck = (deck: PIXI.Point, quantity: number) => {
